@@ -18,11 +18,11 @@ public class CES extends Student {
 
 	private static ArrayList<Student> list ;
 	
-	private static void ReadFile (String filepath) {
+	private static ArrayList<Student> ReadFile (String filepath) {
 		/*
 		 * Your Work !
 		 * */
-Scanner scanner = null;
+        Scanner scanner = null;
 		
 		if (list == null) {
 			list = new ArrayList<Student>();
@@ -100,7 +100,7 @@ Scanner scanner = null;
 	            }
 	        }
 		}
-	}
+	
 	
 	private static void ScoreEnrollment () {
 		
